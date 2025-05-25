@@ -39,20 +39,6 @@ Pod::Spec.new do |s|
     ss.ios.deployment_target = '14.0'
   end
 
-  s.subspec 'https' do |ss|
-    ss.source_files        = 'Classes/**/*'
-    ss.public_header_files = 'Classes/**/*.h'
-    ss.dependency 'ffmpeg-kit-ios-https', "6.0"
-    ss.ios.deployment_target = '14.0'
-  end
-
-  s.subspec 'https-gpl' do |ss|
-    ss.source_files        = 'Classes/**/*'
-    ss.public_header_files = 'Classes/**/*.h'
-    ss.dependency 'ffmpeg-kit-ios-https-gpl', "6.0"
-    ss.ios.deployment_target = '14.0'
-  end
-
   s.subspec 'audio' do |ss|
     ss.source_files        = 'Classes/**/*'
     ss.public_header_files = 'Classes/**/*.h'
