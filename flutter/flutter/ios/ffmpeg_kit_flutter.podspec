@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'Classes/**/*.h'
 
   # ✅ Use 'https' instead of broken 'https-lts'
-  s.default_subspec     = 'https'
+  s.default_subspec     = 'full'
 
   s.dependency          'Flutter'
   s.pod_target_xcconfig = {
