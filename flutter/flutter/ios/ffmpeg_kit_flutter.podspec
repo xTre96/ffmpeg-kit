@@ -12,11 +12,11 @@ Pod::Spec.new do |s|
   s.static_framework    = true
 
   # ✅ Valid ZIP file for ffmpeg-kit 6.0 (not LTS)
-  s.source = { :http => 'https://github.com/xTre96/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-ios-full.zip' }
+  s.source = { :http => 'https://github.com/arthenica/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-full-6.0-ios-xcframework.zip' }
   s.source_files        = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
 
-  # ✅ Use 'https' instead of broken 'https-lts'
+  # ✅ Use 'full' instead of broken 'https-lts'
   s.default_subspec     = 'full'
 
   s.dependency          'Flutter'
